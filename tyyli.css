@@ -1,7 +1,40 @@
 /*responsive element base*/
 @media only screen and (max-width:420px)
 {
+    .flex_container3{display: flex;
+        justify-content: space-between;
+        text-align: center;
+        p {
+           text-align: left;
+           padding-left: 30px;
+           padding-right: 30px;
+       }
+    }
 
+    .flex_container2{display: none;
+        justify-content: space-between;
+        text-align: center;
+        p {
+           text-align: left;
+           padding-left: 30px;
+           padding-right: 30px;
+       }
+    }
+
+    .flex_container_yhteystiedot{display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        text-align: center;
+        p {
+           text-align: left;
+           padding-left: 30px;
+           padding-right: 30px;
+       }
+
+}
+
+    #mobile_luukas {display: block;}
+    #mobile_luukas_p{display: block;}
 }
 
 /*responsive element base*/
@@ -15,13 +48,68 @@
                         padding-left: 30px;
                         padding-right: 30px;
                     }
+                    padding-bottom: 30px;
     }
+
+    .flex_container2{display: flex;
+                     justify-content: space-between;
+                     text-align: center;
+                     p {
+                        text-align: left;
+                        padding-left: 30px;
+                        padding-right: 30px;
+                    }
+    }
+
+    .flex_container3{display: none;
+                     justify-content: space-between;
+                     text-align: center;
+                     p {
+                        text-align: left;
+                        padding-left: 30px;
+                        padding-right: 30px;
+                    }
+    }
+
+    .flex_container_yhteystiedot{display: flex;
+                                 justify-content: space-between;
+                                 text-align: center;
+                                 p {
+                                    text-align: left;
+                                    padding-left: 30px;
+                                    padding-right: 30px;
+                                }
+    }
+
+    #mobile_luukas {display: none;}
+    #mobile_luukas_p{display: none;}
               
 }
 /*responsive element base*/
 @media only screen and (min-width:1024px)
 {
 
+    .flex_container3{display: none;
+        justify-content: space-between;
+        text-align: center;
+        p {
+           text-align: left;
+           padding-left: 30px;
+           padding-right: 30px;
+       }
+    }
+    .flex_container_yhteystiedot{display: flex;
+        justify-content: space-between;
+        text-align: center;
+        p {
+           text-align: left;
+           padding-left: 30px;
+           padding-right: 30px;
+       }
+    }
+
+    #mobile_luukas {display: none;}
+    #mobile_luukas_p{display: none;}
 }
 
 #topbar {
@@ -38,6 +126,15 @@
     color: aliceblue;
     padding: 14px;
     text-decoration: none;
+}
+
+#bottom_bar {
+    display: block;
+    color: aliceblue;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(0, 47, 255);
+    overflow: hidden;
 }
 
 body {
@@ -91,7 +188,7 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#koira_1 {
+#banner_filler {
     border-radius: 50%;
     display: block;
     margin-left: auto;
