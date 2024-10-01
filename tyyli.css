@@ -94,9 +94,10 @@
     .flex_container_yhteystiedot{display: flex;
                                  justify-content: space-between;
                                  text-align: center;
+                        
     }
 
-    .flex_container_yhteystiedot{
+    .flex_container_yhteystiedot p{
         text-align: left;
         padding-left: 30px;
         padding-right: 30px;
@@ -113,6 +114,12 @@
                    height: 300px;}
     #leo_filler{width: 200px;
                 height: 300px;}
+
+    .hinnasto_container {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+    }
               
 }
 /*responsive element base*/
@@ -135,7 +142,7 @@
         text-align: center;
     }
 
-    .flex_container_yhteystiedot{
+    .flex_container_yhteystiedot p{
         text-align: left;
         padding-left: 30px;
         padding-right: 30px;
