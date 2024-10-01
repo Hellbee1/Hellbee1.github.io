@@ -4,37 +4,54 @@
     .flex_container3{display: flex;
         justify-content: space-between;
         text-align: center;
-        p {
-           text-align: left;
-           padding-left: 30px;
-           padding-right: 30px;
-       }
+    }
+
+    .flex_container3 p{
+        text-align: left;
+        padding-left: 30px;
+        padding-right: 30px; 
     }
 
     .flex_container2{display: none;
         justify-content: space-between;
         text-align: center;
-        p {
-           text-align: left;
-           padding-left: 30px;
-           padding-right: 30px;
-       }
+    }
+
+    .flex_container2 p{
+        text-align: left;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .flex_container_yhteystiedot{display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
         text-align: center;
-        p {
-           text-align: left;
-           padding-left: 30px;
-           padding-right: 30px;
-       }
+    }
 
-}
+    .flex_container_yhteystiedot p {
+        text-align: left;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 
     #mobile_luukas {display: block;}
     #mobile_luukas_p{display: block;}
+    #luukas_filler2{display: block;
+                    width: 350px;
+                    height: 500px;
+                    margin-left: auto;
+                    margin-right: auto;}
+
+    #luukas_filler{width: 200px;
+        height: 300px;}
+    #leo_filler{width: 350px;
+     height: 500px;
+     margin-left: auto;
+     margin-right: auto;}
+
+    #banner_filler {width: 350px;
+        height: 400px;}
 }
 
 /*responsive element base*/
@@ -43,46 +60,59 @@
     .flex_container{display: flex;
                     justify-content: space-between;
                     text-align: center;
-                    p {
-                        text-align: left;
-                        padding-left: 30px;
-                        padding-right: 30px;
-                    }
                     padding-bottom: 30px;
+    }
+
+    .flex_container p{
+        text-align: left;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .flex_container2{display: flex;
                      justify-content: space-between;
                      text-align: center;
-                     p {
-                        text-align: left;
-                        padding-left: 30px;
-                        padding-right: 30px;
-                    }
+    }
+
+    .flex_container2 p{
+        text-align: left;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .flex_container3{display: none;
                      justify-content: space-between;
                      text-align: center;
-                     p {
-                        text-align: left;
-                        padding-left: 30px;
-                        padding-right: 30px;
-                    }
+    }
+
+    .flex_container3{
+        text-align: left;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .flex_container_yhteystiedot{display: flex;
                                  justify-content: space-between;
                                  text-align: center;
-                                 p {
-                                    text-align: left;
-                                    padding-left: 30px;
-                                    padding-right: 30px;
-                                }
+    }
+
+    .flex_container_yhteystiedot{
+        text-align: left;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     #mobile_luukas {display: none;}
     #mobile_luukas_p{display: none;}
+    #luukas_filler2{display: none;}
+
+    #banner_filler {width: 350px;
+        height: 400px;}
+
+    #luukas_filler{width: 200px;
+                   height: 300px;}
+    #leo_filler{width: 200px;
+                height: 300px;}
               
 }
 /*responsive element base*/
@@ -92,24 +122,36 @@
     .flex_container3{display: none;
         justify-content: space-between;
         text-align: center;
-        p {
-           text-align: left;
-           padding-left: 30px;
-           padding-right: 30px;
-       }
     }
+
+    .flex_container3{
+        text-align: left;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
     .flex_container_yhteystiedot{display: flex;
         justify-content: space-between;
         text-align: center;
-        p {
-           text-align: left;
-           padding-left: 30px;
-           padding-right: 30px;
-       }
+    }
+
+    .flex_container_yhteystiedot{
+        text-align: left;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     #mobile_luukas {display: none;}
     #mobile_luukas_p{display: none;}
+    #luukas_filler2{display: none;}
+
+    #banner_filler {width: 350px;
+                    height: 400px;}
+
+    #luukas_filler{width: 400px;
+                   height: 600px;}
+    #leo_filler{width: 400px;
+                height: 600px;}
 }
 
 #topbar {
