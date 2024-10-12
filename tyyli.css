@@ -37,6 +37,43 @@
 
     #mobile_luukas {display: block;}
     #mobile_luukas_p{display: block;}
+
+    #topbar {
+        position: sticky;
+        top: 0;
+        text-align: center;
+        overflow: hidden;
+        background-color: #D4A017;
+    }
+
+    #banner_filler{
+        width: 100%;
+        height: auto;
+        display: none;
+    }
+
+    #banner_mobile{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    #leo_filler {
+        width: 300px;
+        height: auto;
+    }
+
+    #luukas_filler {
+        width: 300px;
+        height: auto;
+    }
+
+    .main_container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: #333333;
+    }
 }
 
 /*responsive element base*/
@@ -90,8 +127,45 @@
 
     #mobile_luukas {display: none;}
     #mobile_luukas_p{display: none;}
-              
+
+    #topbar {
+        position: sticky;
+        top: 0;
+        text-align: center;
+        overflow: hidden;
+        background-color: #D4A017;
+    }
+
+    #banner_filler{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    #banner_mobile{
+        width: 100%;
+        height: auto;
+        display: none;
+    }
+
+    #leo_filler {
+        width: 300px;
+        height: auto;
+    }
+
+    #luukas_filler {
+        width: 300px;
+        height: auto;
+    }
+
+    .main_container {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: #333333;
+    }
 }
+              
 /*responsive element base*/
 @media only screen and (min-width:1024px)
 {
@@ -128,6 +202,18 @@
         text-align: center;
         overflow: hidden;
         background-color: #D4A017;
+    }
+
+    #banner_filler{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    #banner_mobile{
+        width: 100%;
+        height: auto;
+        display: none;
     }
 
     #leo_filler {
