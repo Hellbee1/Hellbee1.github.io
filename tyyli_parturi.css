@@ -1,8 +1,206 @@
 @media only screen and (max-width:420px)
-{}
+{
+    #topbar_hiustenleikkaus {
+        top: 0;
+        text-align: center;
+        overflow: hidden;
+        background-color: #5a4631;
+    }
+
+    #parturi_banner{
+        width: 100%;
+        height: auto;
+        display: none;
+    }
+
+    #parturi_mobile{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .flex_container_yhteystiedot{display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        text-align: center;
+        p {
+           text-align: left;
+           padding-left: 30px;
+           padding-right: 30px;
+       }
+    }
+
+    .flex_container2{display: none;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .main_container_parturi {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: #f5e8d8;
+    }
+}
 
 @media only screen and (min-width:421px)
-{}
+{
+    #topbar_hiustenleikkaus {
+        position: sticky;
+        top: 0;
+        text-align: center;
+        overflow: hidden;
+        background-color: #5a4631;
+    }
+
+    #parturi_banner{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    #parturi_mobile{
+        width: 100%;
+        height: auto;
+        display: none;
+    }
+
+    .flex_container_yhteystiedot{display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        text-align: center;
+        p {
+           text-align: left;
+           padding-left: 30px;
+           padding-right: 30px;
+       }
+    }
+
+    .flex_container2{display: none;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .flex_container{display: flex;
+        justify-content: space-between;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .flex_container p{
+        text-align: left;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .main_container_parturi {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: #f5e8d8;
+    }
+}
 
 @media only screen and (min-width:1024px)
-{}
+{
+    #topbar_hiuestenleikkaus {
+        position: sticky;
+        top: 0;
+        text-align: center;
+        overflow: hidden;
+        background-color: #5a4631;
+    }
+
+    #parturi_banner{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    #parturi_mobile{
+        width: 100%;
+        height: auto;
+        display: none;
+    }
+
+    .flex_container_yhteystiedot{display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        text-align: center;
+        p {
+           text-align: left;
+           padding-left: 30px;
+           padding-right: 30px;
+       }
+    }
+
+    .flex_container2{display: none;
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    .flex_container{display: flex;
+        justify-content: space-between;
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .flex_container p{
+        text-align: left;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .main_container_parturi {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: #f5e8d8;
+    }
+}
+
+#leo_filler {
+    width: 300px;
+    height: auto;
+}
+
+body {
+    background-color: #f5e8d8;
+}
+
+h1 {
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 2em;
+    color: #2f2f2f;
+}
+
+#topbar_hiustenleikkaus a {
+    font-size: 1.5em;
+    display: inline-block;
+    color: #d4a373;
+    padding: 14px;
+    text-decoration: none;
+}
+
+#topbar a:hover {
+    text-decoration: underline;
+}
+
+#bottom_bar_hiustenleikkaus {
+    display: block;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-decoration: none;
+    background-color: #5a4631;
+    overflow: hidden;
+}
+
+#bottom_bar_hiustenleikkaus h2{
+    color: #d4a373;
+}
+
+#bottom_bar_hiustenleikkaus p {
+    color: #d4a373;
+}

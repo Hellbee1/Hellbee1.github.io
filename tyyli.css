@@ -32,14 +32,12 @@
            padding-left: 30px;
            padding-right: 30px;
        }
-
-}
+    }
 
     #mobile_luukas {display: block;}
     #mobile_luukas_p{display: block;}
 
     #topbar {
-        position: sticky;
         top: 0;
         text-align: center;
         overflow: hidden;
