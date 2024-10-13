@@ -9,19 +9,23 @@
         <link href="tyyli_parturi.css" rel="stylesheet" type="text/css">
     </head>
     <body>
+        <!-- Ensimmäinen kuva näkyy koneella ollessa, toka mobiilissa -->
         <img src="parturi_logo_banner.png" alt="parturi_banner" id="parturi_banner">
         <img src="Parturi_logo.jpg" alt="parturi_mobile" id="parturi_mobile">
+        <!-- Navigointi palkki, pysyy aina kuvaruudun yläreunassa -->
         <nav id="topbar_hiustenleikkaus">
             <a href="hiustenleikkaus.html">Etusivu</a>
             <a href="palvelut_ja_hinnasto_hiustenleikkaus.html">Palvelut ja hinnasto</a>
             <a href="ajanvaraus_parturi.html">Ajanvaraus</a>
             <a href="index.html">Autopesu</a>
         </nav>
+        <!-- main container estää sivuston elementtejä skaalautumasta koko sivulle,kun mennään tietyn pisteen yli elementit pysähtyvät, mutta sivuille tulee tyhjää backgroundia. tämä tehdään css:n avulla-->
         <div class="main_container_parturi">
             <h1>Ajanvaraus</h1>
             <p>Mikäli haluat varata ajanhiustenleikkaukseen ota yhteyttä puhelimitse numeroon +358449800344 tai laittamalla viestiä sähköpostiin leo.rajala@icloud.com.</p>
             <p>Ajanvarausnäkymä ja järjestelmä on työnalla, tästä syystä varaukset toistaiseksi yllämainituilla tavoilla.</p>
         </div>
+        <!-- Alapalkki, jossa yhteystiedot -->
         <div id="bottom_bar_hiustenleikkaus">
             <h2>Yhteystiedot</h2>
             <div class="flex_container_yhteystiedot">

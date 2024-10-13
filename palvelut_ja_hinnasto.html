@@ -9,17 +9,21 @@
         <link href="tyyli.css" rel="stylesheet" type="text/css">
     </head>
     <body>
+        <!-- Ensimmäinen kuva näkyy koneella ollessa, toka mobiilissa -->
         <img src="autopesu_banner.png" alt="banner_filler" id="banner_filler">
         <img src="Autopesu_logo.jpg" alt="banner_mobile" id="banner_mobile">
+        <!-- Navigointi palkki, pysyy aina kuvaruudun yläreunassa -->
         <nav id="topbar">
             <a href="index.html">Etusivu</a>
             <a href="palvelut_ja_hinnasto.html">Palvelut ja hinnasto</a>
             <a href="ajanvaraus.html">Ajanvaraus</a>
             <a href="hiustenleikkaus.html">Hiustenleikkaus</a>
         </nav>
+        <!-- main container estää sivuston elementtejä skaalautumasta koko sivulle,kun mennään tietyn pisteen yli elementit pysähtyvät, mutta sivuille tulee tyhjää backgroundia. tämä tehdään css:n avulla-->
         <div class="main_container">
             <h1>Palvelut ja hinnasto</h1>
-            <p><div class="flex_container">
+            <!-- 2 vierekkäin per rivi, mobiilissa kaikki allekkain-->
+            <div class="flex_container">
                 <div itemid="container1">
                     <h2>Ulkopesu 15€</h2>
                     <p>Sisältää auton ulkopintojen perusteellisen pesun, jossa poistetaan lika, pöly ja tiepikiinteet. Käytetään laadukkaita pesuaineita ja välineitä, jotka suojaavat auton pintaa. Viimeistelyssä varmistetaan, että auto kiiltää ja näyttää puhtaalta.
@@ -31,7 +35,8 @@
                     </p>
                 </div>
             </div>
-            <div class="flex_container2">
+            <!-- 2 vierekkäin per rivi, mobiilissa kaikki allekkain-->
+            <div class="flex_container">
                 <div  itemid="container3">
                     <h2>Vahaus 10€</h2>
                     <p>Perusvahaus, joka lisää kiiltoa ja suojaa auton maalipintaa UV-säteilyltä ja sääolosuhteilta. Käsittely tekee pinnasta vettä hylkivän, mikä helpottaa jatkossa auton puhtaana pitämistä. Suositellaan lisäsuojaksi säännöllisen pesun oheen.
@@ -44,6 +49,7 @@
                 </div>
             </div>
         </div>
+        <!-- Alapalkki, jossa yhteystiedot -->
         <div id="bottom_bar">
             <h2>Yhteystiedot</h2>
             <div class="flex_container_yhteystiedot">
