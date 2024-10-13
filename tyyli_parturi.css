@@ -23,11 +23,12 @@
         justify-content: space-evenly;
         flex-wrap: wrap;
         text-align: center;
-        p {
-           text-align: left;
-           padding-left: 30px;
-           padding-right: 30px;
-       }
+    }
+
+    .flex_container_yhteystiedot p {
+        text-align: left;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
 
@@ -65,11 +66,12 @@
         justify-content: space-evenly;
         flex-wrap: wrap;
         text-align: center;
-        p {
-           text-align: left;
-           padding-left: 30px;
-           padding-right: 30px;
-       }
+    }
+
+    .flex_container_yhteystiedot p {
+        text-align: left;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .flex_container2{display: none;
@@ -129,11 +131,12 @@
         justify-content: space-evenly;
         flex-wrap: wrap;
         text-align: center;
-        p {
-           text-align: left;
-           padding-left: 30px;
-           padding-right: 30px;
-       }
+    }
+
+    .flex_container_yhteystiedot p {
+        text-align: left;
+        padding-left: 30px;
+        padding-right: 30px;
     }
 
     .flex_container2{display: none;
