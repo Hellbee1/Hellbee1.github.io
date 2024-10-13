@@ -67,6 +67,11 @@
         height: auto;
     }
 
+    #luukas_filler2 {
+        width: 300px;
+        height: auto;
+    }
+
     .main_container {
         width: 100%;
         max-width: 1200px;
@@ -157,6 +162,11 @@
         height: auto;
     }
 
+    #luukas_filler2 {
+        width: 300px;
+        height: auto;
+    }
+
     .main_container {
         width: 100%;
         max-width: 1200px;
@@ -221,6 +231,11 @@
     }
 
     #luukas_filler {
+        width: 300px;
+        height: auto;
+    }
+
+    #luukas_filler2 {
         width: 300px;
         height: auto;
     }
